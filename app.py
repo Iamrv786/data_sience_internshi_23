@@ -1,3 +1,16 @@
 import streamlit as st
 
-st.header("Hello Data Science Internship_2023")
+
+
+st.title(":red[Innomatics] Data  App :sunglasses:")
+
+st.header("Data Science Internship")
+
+
+
+if st.button('Make Snowfall'):
+    st.snow()
+if st.button('Fly Balloons'):
+    st.balloons()
+
+
